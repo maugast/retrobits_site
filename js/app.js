@@ -5,7 +5,7 @@ const cartBtn = document.getElementById('cart-btn');
 const cartList = document.getElementById('cart');
 
 
-
+//Classes
 class Product{
     constructor(imgProduct,nameProduct, priceProduct, qtyProduct){
         this.imgProduct = imgProduct; 
