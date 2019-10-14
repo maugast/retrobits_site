@@ -137,6 +137,7 @@ function checkPaymentOptions(e){
 
                 productPrice.textContent = productPriceFix/optionValues;
 
+                quantity.textContent = 1;
             }
             else {
                 checkboxes[1].removeAttribute('disabled');
